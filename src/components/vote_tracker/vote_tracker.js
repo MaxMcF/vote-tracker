@@ -36,7 +36,6 @@ class VoteTracker extends React.Component {
         let downvote_count = counter
         this.setState({ downvote_count, vote_limit})
       }
-      // if (counter === 0) { polarity = 'neutral' };
     }
   }
 
